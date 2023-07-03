@@ -1,0 +1,75 @@
+@media (max-width: 501px) {
+  .author-img {
+    display: none;
+  }
+  .h1-name {
+    font-size: 14px;
+  }
+  #nav-main {
+    display: none;
+  }
+  .container-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nav-item {
+    font-size: 8px;
+  }
+  .h1-job {
+    font-size: 10px;
+  }
+  .container-about {
+    grid-template-columns: 100%;
+    /* grid-template-rows: 1fr 1fr; */
+  }
+  .grid-container {
+    grid-template-columns: 90%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-item {
+    height: 250px;
+  }
+  /* chung chi giai thuowng */
+  .certificate-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .certificate-2 {
+    padding-left: 26px;
+  }
+  .certificate-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  /* project */
+  .project-box {
+    grid-template-columns: 90vw;
+  }
+  .footer-text {
+    display: none;
+  }
+  .certificate-cl {
+    flex-direction: column;
+  }
+  .certificate-cl {
+    display: flex;
+  }
+  .nav-item {
+    border-style: none;
+  }
+  .certificate-image {
+    width: 80vw;
+  }
+  .certificate-name {
+    font-size: 16px;
+  }
+  .section-title2 {
+    font-size: 22px;
+  }
+  .ctel {
+    font-size: 16px;
+  }
+}
